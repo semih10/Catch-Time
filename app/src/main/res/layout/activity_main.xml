@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/btnSeviye1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="200dp"
+        android:text="Seviye 1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bannerReklamm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-****"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
+
+    <Button
+        android:id="@+id/btnSeviye2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Seviye 2"
+        app:layout_constraintEnd_toStartOf="@+id/btnSeviye3"
+        app:layout_constraintStart_toEndOf="@+id/btnSeviye1"
+        app:layout_constraintTop_toTopOf="@+id/btnSeviye1" />
+
+    <Button
+        android:id="@+id/btnSeviye3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="Seviye 3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnSeviye2" />
+
+    <Button
+        android:id="@+id/btnSeviye4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Seviye 4"
+        app:layout_constraintEnd_toEndOf="@+id/btnSeviye1"
+        app:layout_constraintStart_toStartOf="@+id/btnSeviye1"
+        app:layout_constraintTop_toBottomOf="@+id/btnSeviye1" />
+
+    <Button
+        android:id="@+id/btnSeviye5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seviye 5"
+        app:layout_constraintEnd_toEndOf="@+id/btnSeviye2"
+        app:layout_constraintStart_toStartOf="@+id/btnSeviye2"
+        app:layout_constraintTop_toTopOf="@+id/btnSeviye4" />
+
+    <Button
+        android:id="@+id/btnSeviye6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seviye 6"
+        app:layout_constraintEnd_toEndOf="@+id/btnSeviye3"
+        app:layout_constraintStart_toStartOf="@+id/btnSeviye3"
+        app:layout_constraintTop_toTopOf="@+id/btnSeviye5" />
+
+</android.support.constraint.ConstraintLayout>

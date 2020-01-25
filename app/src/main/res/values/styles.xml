@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">#00bcd4</item>
+        <!-- <item name="actionOverflowButtonStyle">@style/CustomOverflowButton</item>-->
+    </style>
+    <style name = "NoActionBar" parent = "Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#06263e</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="CustomOverflowButton" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+       <item name="android:src">@drawable/question_mark</item>-->
+        <!--İkonun ölçüleri40 a 40 verildi-->
+    </style>
+    <style name="CustomOverflowBack" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <!--Menüdeki beyaz olan arka planı burda değiştirebilirsin popupBackground-->
+    </style>
+</resources>

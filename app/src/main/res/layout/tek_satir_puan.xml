@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imgUsCircleProfil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="3dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </View>
+
+    <TextView
+        android:id="@+id/tvUsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Semih"
+        android:textColor="#fffde7"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvUsIndex"
+        app:layout_constraintStart_toEndOf="@+id/tvUsIndex"
+        app:layout_constraintTop_toTopOf="@+id/tvUsIndex" />
+
+    <TextView
+        android:id="@+id/tvUsPuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="300"
+        android:textColor="#fffde7"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvUsName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toEndOf="@+id/tvUsName"
+        app:layout_constraintTop_toTopOf="@+id/tvUsName" />
+
+    <TextView
+        android:id="@+id/tvUsIndex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="10."
+        android:textColor="#fffde7"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgUsCircleProfil"
+        app:layout_constraintStart_toEndOf="@+id/imgUsCircleProfil"
+        app:layout_constraintTop_toTopOf="@+id/imgUsCircleProfil" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "462748670966",
+    "firebase_url": "https://catchtimer-5e1ae.firebaseio.com",
+    "project_id": "catchtimer-5e1ae",
+    "storage_bucket": "catchtimer-5e1ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462748670966:android:9e279c6c2e49628a",
+        "android_client_info": {
+          "package_name": "com.semihbarut.catchtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462748670966-itmbe027t333ciodgb5agcdm4bu3u9i8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.semihbarut.catchtime",
+            "certificate_hash": "accea22fb9e38a52a649b01d02ce001cbc6b8c6e"
+          }
+        },
+        {
+          "client_id": "462748670966-cgq3ib1trt4n3sd55o81mc9e24oth6bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN4sc0qcavDa82IE_23841lLt_uEt9uGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462748670966-cgq3ib1trt4n3sd55o81mc9e24oth6bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
